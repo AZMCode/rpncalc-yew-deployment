@@ -546,7 +546,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('rpncalc-yew-ddaa18feb7fe37aa_bg.wasm', import.meta.url);
+        input = new URL('rpncalc-yew-a7f3aa5411973f94_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
